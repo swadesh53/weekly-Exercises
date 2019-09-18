@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+
+ul { /*other possible selectors: .nav, ul.nav*/
+  background-color: tomato;
+  margin: 10px;
+  padding: 25px;
+}
+
+li { /*other possible selectors: ul li, .nav li, ul.nav li*/
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+.box { /*other possible selector: div.box*/
+  display: inline-block;
+  width: 40%;
+}
+
+img { /*other possible selectors: div img*/
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.html { /*other possible selector: div.html*/
+  background-color: #2BA8E0;
+}
+
+.css { /*other possible selector: div.css*/
+  background-color: #EE6526;
+}
+
+/*bonus*/
+
+#newDiv {
+  background-color: tomato;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#newDiv2 {
+  background-color: gray;
+}
